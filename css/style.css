@@ -1,0 +1,141 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #fcfcfc;
+}
+
+h1,
+h3{
+    font-weight: 400;    
+}
+
+h1{
+    margin: 30px 40px 20px 40px;
+    font-size: 1.3rem;
+}
+
+.name{
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.email{
+    margin-bottom: 4px;
+}
+
+p{
+    color: #b2b5b8;
+    font-size: .8rem;
+}
+
+body{
+    position: relative;
+}
+
+.card{
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.text-container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.grid-container{
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+
+.modal{
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.modal-close{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+#search-input{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid #dddddd;
+    border-radius: 6px;
+    margin: 0 0 25px 0;
+}
+
+input[type=text]{
+    padding: 2px 10px;
+}
+
+.search-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-right{
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-left: 25px solid #0babdc;
+    position: absolute;
+    left: 110%;
+    bottom: 45%;
+}
+
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;  
+    border-right:25px solid #0babdc; 
+    position: absolute;
+    right: 110%;
+    bottom: 45%;
+  }
+  
